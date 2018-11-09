@@ -3048,6 +3048,32 @@ HRESULTERROR AdES::PDFSign(LEVEL levx, const char* d, DWORD sz, const std::vecto
 	return S_OK;
 }
 
+std::string GetErrorDescription(DWORD errCode)
+{
+	std::string errorDescription(1024, 0);
+	DWORD charsWritten = FormatMessageA(FORMAT_MESSAGE_FROM_SYSTEM, nullptr, errCode, 0, &errorDescription[0], static_cast<DWORD>(errorDescription.size()), nullptr);
+	if (errorDescription.substr(charsWritten - 2, 2) == "\r\n")
+		charsWritten -= 2;
+	
+	errorDescription.resize(charsWritten);
+	return errorDescription;
+}
+
+#include <iostream>
+
+void HandleSystemError(const char* systemFxName = nullptr)
+{
+	DWORD dwErrorCode = GetLastError();
+	if (dwErrorCode != ERROR_SUCCESS)
+	{
+		std::string who("System call");
+		if (systemFxName && *systemFxName)
+			who = systemFxName + std::string("()");
+		
+		std::cerr << who << " failed: " << GetErrorDescription(dwErrorCode) << " (Error " << dwErrorCode << " 0x" << std::hex << dwErrorCode << std::dec << ")" << std::endl;
+	}
+}
+
 HRESULT AdES::Sign(LEVEL lev, const char* data, DWORD sz, const std::vector<CERT>& Certificates, SIGNPARAMETERS& Params, std::vector<char>& Signature)
 {
 	auto hr = E_FAIL;
@@ -3072,7 +3098,8 @@ HRESULT AdES::Sign(LEVEL lev, const char* data, DWORD sz, const std::vector<CERT
 		HCRYPTPROV_OR_NCRYPT_KEY_HANDLE a = 0;
 		DWORD ks = 0;
 		BOOL bfr = false;
-		CryptAcquireCertificatePrivateKey(c.cert.cert, 0, 0, &a, &ks, &bfr);
+		BOOL bOK = CryptAcquireCertificatePrivateKey(c.cert.cert, 0, 0, &a, &ks, &bfr);
+		HandleSystemError("CryptAcquireCertificatePrivateKey");
 		if (a)
 			SignerEncodeInfo.hCryptProv = a;
 		if (bfr)
@@ -3277,6 +3304,7 @@ HRESULT AdES::Sign(LEVEL lev, const char* data, DWORD sz, const std::vector<CERT
 		&SignedMsgEncodeInfo, // Pointer to structure
 		NULL,                 // Inner content OID
 		(DWORD)sz);
+	HandleSystemError("CryptMsgCalculateEncodedLength");
 	if (cbEncodedBlob)
 	{
 		auto hMsg = CryptMsgOpenToEncode(

@@ -116,151 +116,151 @@
     <ClCompile Include="X121Address.c">
       <Filter>ASNC</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ANY.c">
+    <ClCompile Include=".\asn1\skeletons\ANY.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\asn_codecs_prim.c">
+    <ClCompile Include=".\asn1\skeletons\asn_codecs_prim.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\asn_SEQUENCE_OF.c">
+    <ClCompile Include=".\asn1\skeletons\asn_SEQUENCE_OF.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\asn_SET_OF.c">
+    <ClCompile Include=".\asn1\skeletons\asn_SET_OF.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ber_decoder.c">
+    <ClCompile Include=".\asn1\skeletons\ber_decoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ber_tlv_length.c">
+    <ClCompile Include=".\asn1\skeletons\ber_tlv_length.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ber_tlv_tag.c">
+    <ClCompile Include=".\asn1\skeletons\ber_tlv_tag.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\BIT_STRING.c">
+    <ClCompile Include=".\asn1\skeletons\BIT_STRING.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\BMPString.c">
+    <ClCompile Include=".\asn1\skeletons\BMPString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\BOOLEAN.c">
+    <ClCompile Include=".\asn1\skeletons\BOOLEAN.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_CHOICE.c">
+    <ClCompile Include=".\asn1\skeletons\constr_CHOICE.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_SEQUENCE.c">
+    <ClCompile Include=".\asn1\skeletons\constr_SEQUENCE.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_SEQUENCE_OF.c">
+    <ClCompile Include=".\asn1\skeletons\constr_SEQUENCE_OF.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_SET.c">
+    <ClCompile Include=".\asn1\skeletons\constr_SET.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_SET_OF.c">
+    <ClCompile Include=".\asn1\skeletons\constr_SET_OF.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constr_TYPE.c">
+    <ClCompile Include=".\asn1\skeletons\constr_TYPE.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\constraints.c">
+    <ClCompile Include=".\asn1\skeletons\constraints.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\der_encoder.c">
+    <ClCompile Include=".\asn1\skeletons\der_encoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ENUMERATED.c">
+    <ClCompile Include=".\asn1\skeletons\ENUMERATED.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\GeneralizedTime.c">
+    <ClCompile Include=".\asn1\skeletons\GeneralizedTime.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\GeneralString.c">
+    <ClCompile Include=".\asn1\skeletons\GeneralString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\GraphicString.c">
+    <ClCompile Include=".\asn1\skeletons\GraphicString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\IA5String.c">
+    <ClCompile Include=".\asn1\skeletons\IA5String.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\INTEGER.c">
+    <ClCompile Include=".\asn1\skeletons\INTEGER.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ISO646String.c">
+    <ClCompile Include=".\asn1\skeletons\ISO646String.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\NativeEnumerated.c">
+    <ClCompile Include=".\asn1\skeletons\NativeEnumerated.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\NativeInteger.c">
+    <ClCompile Include=".\asn1\skeletons\NativeInteger.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\NativeReal.c">
+    <ClCompile Include=".\asn1\skeletons\NativeReal.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\NULL.c">
+    <ClCompile Include=".\asn1\skeletons\NULL.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\NumericString.c">
+    <ClCompile Include=".\asn1\skeletons\NumericString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\OBJECT_IDENTIFIER.c">
+    <ClCompile Include=".\asn1\skeletons\OBJECT_IDENTIFIER.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\ObjectDescriptor.c">
+    <ClCompile Include=".\asn1\skeletons\ObjectDescriptor.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\OCTET_STRING.c">
+    <ClCompile Include=".\asn1\skeletons\OCTET_STRING.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\per_decoder.c">
+    <ClCompile Include=".\asn1\skeletons\per_decoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\per_encoder.c">
+    <ClCompile Include=".\asn1\skeletons\per_encoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\per_support.c">
+    <ClCompile Include=".\asn1\skeletons\per_support.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\PrintableString.c">
+    <ClCompile Include=".\asn1\skeletons\PrintableString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\REAL.c">
+    <ClCompile Include=".\asn1\skeletons\REAL.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\RELATIVE-OID.c">
+    <ClCompile Include=".\asn1\skeletons\RELATIVE-OID.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\T61String.c">
+    <ClCompile Include=".\asn1\skeletons\T61String.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\TeletexString.c">
+    <ClCompile Include=".\asn1\skeletons\TeletexString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\UniversalString.c">
+    <ClCompile Include=".\asn1\skeletons\UniversalString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\UTCTime.c">
+    <ClCompile Include=".\asn1\skeletons\UTCTime.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\UTF8String.c">
+    <ClCompile Include=".\asn1\skeletons\UTF8String.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\VideotexString.c">
+    <ClCompile Include=".\asn1\skeletons\VideotexString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\VisibleString.c">
+    <ClCompile Include=".\asn1\skeletons\VisibleString.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\xer_decoder.c">
+    <ClCompile Include=".\asn1\skeletons\xer_decoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\xer_encoder.c">
+    <ClCompile Include=".\asn1\skeletons\xer_encoder.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
-    <ClCompile Include="G:\PROGS\asn1\skeletons\xer_support.c">
+    <ClCompile Include=".\asn1\skeletons\xer_support.c">
       <Filter>Skeleton</Filter>
     </ClCompile>
     <ClCompile Include="OtherHashAlgAndValue.c">

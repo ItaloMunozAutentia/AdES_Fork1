@@ -319,7 +319,7 @@ int main()
 		AdES::FILEREF a2(helloxz.data(), 0, "blahblah2");
 		vector<AdES::FILEREF> ax = { a1,a2 };
 		auto hr2 = a.XMLSign(AdES::LEVEL::T, ax, Certs, Params, Sig);
-
+		hr2 = hr2;
 	}
 	else
 	{
@@ -327,6 +327,7 @@ int main()
 		AdES::FILEREF a1(helloxz.data(), 0, "blahblah1");
 		vector<AdES::FILEREF> ax = { a1};
 		auto hr2 = a.XMLSign(AdES::LEVEL::T, ax, Certs, Params, Sig);
+		hr2 = hr2;
 	}
 	PutFile(L"..\\hello2.xml", Sig);
 
